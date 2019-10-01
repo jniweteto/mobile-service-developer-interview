@@ -1,0 +1,27 @@
+Here are some helpful functions and messages that will help you understand and complete the code.
+
+The functions below have been pre-written and are available for you to use:
+    msgs(): allows you to store and access a table of messages to the user.
+    admin_alert(): sends an automated email to a relevant user.
+    sayText(): displays text to the user.
+    promptDigits(): prompts the user to enter information. 
+    addInputHandler(): receives and processes input from a corresponding promptDigits function. 
+    account_verify(): checks that the input account number is in our database.
+    get_balance(): retrieves client balance data from our database.
+    check_order(): retrieves client order data from our database.
+
+The following messages are stored in a table and can be accessed using the "msgs" function:
+    main_splash: prompts the user to enter their account number.
+    main_menu: displays a list of menu selections to the user. 
+    invalid_account: tells the client their account number is invalid and to enter it again.
+    invalid_input: tells the client their input is invalid and to enter it again. 
+    get_balance: displays the client's balance information.
+    check_order: displays the client's order information.
+    issue_menu: displays a list of different issue categories to report.
+    msg_prompt: prompts the user to enter a brief description of their issue. 
+    msg_received: tells the user that their issue description has been received. 
+
+You also have the following users set up in the admin alert function:
+    Rodgers: Kenya USSD lead
+    Marisa: Rwanda USSD lead
+    Arsene: Rwanda fraud investigation lead
